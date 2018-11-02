@@ -1,0 +1,45 @@
+Bass Station II Scala importer
+
+///////////////////////////////////////////////////
+Installation
+
+The Bass Station II Scala importer is a Max patch. You will need a copy of Max MSP to run it which you can get from www.cycling74.com
+
+Note you will not need a license to run the patch
+
+You will need to be running the latest Bass Station Firmware which you can get from components.novationmusic.com
+
+////////////////////////////////////////////////////
+How to use
+
+//Set-up//
+
+Connect your Bass Station via USB then select it from the drop down list on under MIDI set-up. If your Bass Station does not appear use the rescan MIDI button to refresh your list. Note Windows users may need to restart Max if you Bass Station does not appear
+
+//Loading a Tuning//
+
+First select your reference tuning (440hz concert pitch by default)
+
+Scala files (.scl) have to be in .txt format to be loaded in. To convert it is as simple as changing the file extension name. A .zip of the scala scale archive in text format has been provided for ease
+
+To load a scale press the load scale button. A notification will appear when the scale has been loaded and converted to the MIDI Tuning Standard.
+
+Information about the scale will also be displayed
+
+//Sending a Tuning//
+
+First select the tuning table you want to overwrite then press Send to Bass Station II
+
+//////////////////////////////////////////////////
+
+References
+
+Learn more about the scala scale format here
+
+http://www.huygens-fokker.org/scala/
+
+Learn more about the MIDI Tuning Standard here
+
+http://www.microtonal-synthesis.com/MIDItuning.html
+
+
